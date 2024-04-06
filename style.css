@@ -1,0 +1,57 @@
+body,html{
+    height: 100%;
+}
+
+body{
+    background-color: #282c34;
+}
+
+.quiz-holder{
+    width: 500px;
+    margin: 100px auto;
+    border: 1px solid turquoise;
+    box-shadow: 0 0 8px turquoise;
+}
+
+header{
+    height: 50px;
+    background-color: tomato;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 38px;
+}
+
+main{
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    font-size: 30px;
+}
+
+.option{
+    width: 200px;
+    height: 150px;
+    background-color: tomato;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+
+}
+
+.option:hover{
+    background-color: green;
+}
+
+footer{
+    height: 50px;
+    background-color: tomato;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
